@@ -1,0 +1,97 @@
+html, body {
+    font-size: 10px;
+}
+
+main {
+    font-size: 1.2rem;
+    max-width: 50rem;
+    margin: 2rem auto;
+    padding: 3rem 1.6rem 6rem 1.6rem;
+    border-radius: 0.3rem;
+    box-shadow: 0 2px 2px lightgray;
+}
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    text-align: left;
+    font-size: 2.4rem;
+    padding-bottom: 1.8rem;
+    margin: 0;
+}
+
+section {
+    font-family: 'Cardo', serif;
+    font-weight: normal;
+}
+
+hr {
+    border: 1px solid #f4f4f4;
+    margin: 0;
+}
+
+.add-input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.8rem;
+    padding: 1.8rem;
+    background-color: #f4f4f4;
+}
+
+.enter {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#addTask {
+    flex-grow: 10;
+}
+
+#add-button {
+    color: white;
+    background-color: #35A035;
+    border: 0;
+}
+
+.clean {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#done, #all {
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    color: #069;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#clean, #done, #all {
+    margin: 0.1rem;
+}
+
+.complete {
+    text-decoration: line-through;
+}
+
+#taskList {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+    padding: 1rem;
+}
+
+.task-block {
+    padding: 0;
+}
+
+.checkbox {
+    border: lightgray;
+}

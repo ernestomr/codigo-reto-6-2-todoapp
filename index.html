@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>To-do List</title>
+</head>
+<body>
+<main id="container">
+
+    <h1>To-do List</h1>
+
+    <hr>
+
+    <section class="add-input">
+        <div class="enter">
+
+            <label for="addTask"></label>
+
+            <input type="text" placeholder="Enter new task" id="addTask">
+
+            <button id="add-button" onclick="toDo.addTaskClick()">Add</button>
+        </div>
+
+        <div class="clean">
+            <label for="clean" id="clean">Clean:</label>
+            <button type="button" id="done">Done</button>
+<!--            <span id="bar">|</span>-->
+            <button type="button" id="all">All</button>
+        </div>
+
+    </section>
+
+    <section class="task-block">
+        <div class="row">
+            <ul id="taskList">
+            </ul>
+        </div>
+    </section>
+</main>
+<script src="js/script.js"></script>
+</body>
+</html>
